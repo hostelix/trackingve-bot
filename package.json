@@ -1,0 +1,24 @@
+{
+  "name": "trakingve-bot",
+  "version": "1.0.0",
+  "description": "Zoom tracking bot",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Israel Lugo <hostelixisrael@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "cli-table": "^0.3.11",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "puppeteer": "^23.7.1",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
