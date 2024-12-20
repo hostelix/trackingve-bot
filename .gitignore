@@ -3,3 +3,4 @@ archivo.html
 .idea/
 dist/
 .env
+*.js
